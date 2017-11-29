@@ -15,9 +15,19 @@
 
 ### TDD advantages
 <br>
-- Enforces high test coverage (99% is not uncommon)
+- Enforces high test coverage
 - Better quality test cases
-- Helps to constantly drive up test coverage
 - Encourages modular code
 - Encourages 'boy scout coding'
-- Refactoring and adding features is easy
+- Refactoring and adding features is easy and safe
+
+
+---
+
+### Better quality test cases?
+<br>
+Because you're reasoning about the expected behaviour, not the code you just wrote, TDD usually leads to:
+
+- More complete coverage of edge cases
+- more complete coverage of boundary conditions
+- Less bugs
