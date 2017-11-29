@@ -4,7 +4,7 @@
 
 ---
 
-### Why not test-last?
+### Why not test last?
 <br>
 - Trains people to only test 'the happy path'
 - Does not enforce high levels of test coverage
