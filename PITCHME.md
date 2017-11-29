@@ -32,3 +32,15 @@ Because you're reasoning about the expected behaviour, not the code you just wro
 - More complete coverage of boundary conditions
 - Tests more likely to act as documentation
 - Less bugs
+
+---
+
+### Triangular
+<br>
+Ruby library for parsing/slicing stereolithography files. Lots of complex math and potential edge cases. Written in less than a week!
+
+- 99.6% test coverage
+- 2:1 ratio of tests to lib code
+- Thousands of users via Rubygems
+- Multiple 3rd party forks adding features
+- Zero bug reports in the last 6 years
