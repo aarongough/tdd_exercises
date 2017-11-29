@@ -36,7 +36,7 @@ Because you're reasoning about the expected behaviour, not the code you just wro
 
 ### TDD makes life easier!
 <br>
-TDD makes me feel safer and more confident in my day-to-day work, and I believe it makes me faster:
+TDD makes coding easier and faster:
 
 - Failing test cases become a checklist!
 - Eliminates usage of console/repl
