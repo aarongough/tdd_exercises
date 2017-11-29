@@ -83,7 +83,8 @@ That's it... Really!
 Bullshit.
 <br>
 <br>
-If you don't pay for it now, you'll just pay for it later, probably with interest!
+If you don't pay for it now, you'll pay for it later, probably with interest!
+<br>
 <br>
 Our job is to deliver business value, not 'write code'.
 
