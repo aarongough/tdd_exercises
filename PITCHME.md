@@ -73,6 +73,6 @@ Ruby library for parsing/slicing stereolithography files. Lots of complex math a
 <br>
 Red  -  Green  -  Refactor
 
-- Red: Write failing test cases that express the behaviour you want
+- Red: Failing test cases that express what you want
 - Green: Write code to make the test cases pass
 - Refactor your code and tests
