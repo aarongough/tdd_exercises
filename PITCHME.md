@@ -82,7 +82,7 @@ That's it... Really!
 Bullshit.
 <br>
 <br>
-If you don't pay for it now, you'll pay for it later.
+If we don't pay for it now, we'll pay for it later.
 <br>
 <br>
 Our job is to deliver business value, not 'write code'.
