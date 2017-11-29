@@ -36,7 +36,7 @@ Because you're reasoning about the expected behaviour, not the code you just wro
 
 ### TDD helps me!
 <br>
-TDD makes me feel safer and more confident in my day-to-day work, and I believe it makes me faster because:
+TDD makes me feel safer and more confident in my day-to-day work, and I believe it makes me faster:
 
 - Failing test cases become a checklist!
 - Eliminates usage of console/repl
@@ -71,7 +71,7 @@ Ruby library for parsing/slicing stereolithography files. Lots of complex math a
 
 ## Workflow
 <br>
-Red, Green, Refactor
+Red  -  Green  -  Refactor
 
 - Red: Write failing test cases that express the behaviour you want
 - Green: Write code to make the test cases pass
