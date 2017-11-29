@@ -38,6 +38,7 @@ Because you're reasoning about the expected behaviour, not the code you just wro
 <br>
 TDD makes me feel safer and more confident in my day-to-day work, and I believe it makes me faster:
 
+- Writing tests makes me think through the problem
 - Failing test cases become a checklist!
 - Eliminates usage of console/repl
 - Minimizes usage of interactive debuggers
