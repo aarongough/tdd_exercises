@@ -77,10 +77,20 @@ That's it. Really.
 
 ---
 
-## Workflow
+### Workflow
 <br>
 Red  -  Green  -  Refactor
 
 - Red: Failing test cases that express what you want
 - Green: Write code to make the test cases pass
 - Refactor: your code and tests
+
+---
+
+### Unfamiliar problem-space?
+<br>
+- Spike out really messy code to explore
+- Throw that code away
+- Red, Green, Refactor
+
+This may sound crazy, but you already do it! Think about what you do in REPL when exploring...
