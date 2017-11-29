@@ -17,7 +17,7 @@
 <br>
 - Enforces high test coverage (99% is not uncommon)
 - Better quality test cases
-- In legacy code it helps to constantly drive up test coverage
-- Encourages modular code with well defined interfaces
-- Encourages 'boy scout coding': leave it cleaner than when you started
-- Refactoring and adding features without breaking anything is easy
+- Helps to constantly drive up test coverage
+- Encourages modular code
+- Encourages 'boy scout coding'
+- Refactoring and adding features is easy
