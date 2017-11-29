@@ -37,8 +37,9 @@ Because you're reasoning about the expected behaviour, not the code you just wro
 
 ### Triangular
 <br>
-Ruby library for parsing/slicing stereolithography files. Lots of complex math and potential edge cases. Written in less than a week!
+Ruby library for parsing/slicing stereolithography files. Lots of complex math and potential edge cases:
 
+- Written in less than a week!
 - 99.6% test coverage
 - 2:1 ratio of tests to lib code
 - Thousands of users via Rubygems
