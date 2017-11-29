@@ -9,7 +9,7 @@
 - Trains people to only test 'the happy path'
 - Does not enforce high levels of test coverage
 - Unexpected 'coverage holes' everywhere
-- Do the tests actually fail without the feature code??
+- Do the tests actually fail without the code??
 
 ---
 
@@ -19,7 +19,7 @@
 - Better quality test cases
 - Encourages modular code
 - Encourages 'boy scout coding'
-- Refactoring and adding features is easy and safe
+- Refactoring is easy and safe
 
 ---
 
@@ -27,8 +27,8 @@
 <br>
 Because you're reasoning about the expected behaviour, not the code you just wrote:
 
-- More complete coverage of edge cases
-- More complete coverage of boundary conditions
+- Better coverage of edge cases
+- Better coverage of boundary conditions
 - Test cases are living documentation
 - Less bugs
 
@@ -38,10 +38,9 @@ Because you're reasoning about the expected behaviour, not the code you just wro
 <br>
 TDD makes me feel safer and more confident in my day-to-day work, and I believe it makes me faster:
 
-- Writing tests makes me think through the problem
 - Failing test cases become a checklist!
 - Eliminates usage of console/repl
-- Minimizes usage of interactive debuggers
+- Minimizes usage of debuggers
 - Eliminates regressions
 - Minimizes re-work
 
@@ -54,7 +53,7 @@ Ruby library for parsing/slicing stereolithography files. Lots of complex math a
 - Written in less than a week!
 - 99.6% test coverage
 - Thousands of users via Rubygems
-- Multiple 3rd party forks adding features
+- Multiple forks that add features
 - Zero bug reports in the last 6 years
 
 ---
@@ -83,7 +82,7 @@ That's it... Really!
 Bullshit.
 <br>
 <br>
-If you don't pay for it now, you'll pay for it later, probably with interest!
+Look at the whole. If you don't pay for it now, you'll pay for it later, probably with interest!
 <br>
 <br>
 Our job is to deliver business value, not 'write code'.
@@ -102,7 +101,7 @@ Red  -  Green  -  Refactor
 
 ### Unfamiliar problem-space?
 <br>
-- Spike out really messy code to explore
+- Spike out code to explore
 - Throw that code away
 - Red, Green, Refactor
 
@@ -123,3 +122,15 @@ Describe Event: when clock is zero, status is pre-game
 <br>
 <br>
 Frame your thinking around behaviour rather than code
+
+---
+
+### Things not to do
+<br>
+Don't try 'real' unit testing. ie: don't mock your database.
+<br>
+<br>
+`allow(Hockey::Player).to receive(:find).with(goaltender_id).and_return(player)`
+<br>
+<br>
+Fail.
