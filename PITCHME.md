@@ -69,10 +69,18 @@ Ruby library for parsing/slicing stereolithography files. Lots of complex math a
 
 ---
 
+### Drawbacks?
+<br>
+Can make encapsulation harder.
+<br>
+That's it. Really.
+
+---
+
 ## Workflow
 <br>
 Red  -  Green  -  Refactor
 
 - Red: Failing test cases that express what you want
 - Green: Write code to make the test cases pass
-- Refactor your code and tests
+- Refactor: your code and tests
