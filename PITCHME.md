@@ -119,7 +119,7 @@ Start by writing out expected behaviours, then convert them into unit/integratio
 ### Make your test names tell a story
 <br>
 Describe Event: when clock is zero, status is pre-game
-.....class.........context.............test...........
+.....class.........context.............test.....
 <br>
 <br>
-This helps frame your thinking around behaviour rather than code
+Frame your thinking around behaviour rather than code
