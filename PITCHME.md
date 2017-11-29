@@ -139,3 +139,12 @@ Don't try 'real' unit testing. ie: don't mock your database.
 <br>
 <br>
 Fail.
+
+---
+
+### Eureka moment
+<br>
+Think about the kind of code you write in console/repl when working on new code... Could that experimentation become test cases?
+<br>
+<br>
+Yes!
