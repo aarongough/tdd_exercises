@@ -84,6 +84,7 @@ Bullshit.
 <br>
 <br>
 If you don't pay for it now, you'll just pay for it later, probably with interest!
+Our job is to deliver business value, not 'write code'.
 
 ---
 
