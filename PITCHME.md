@@ -21,17 +21,28 @@
 - Encourages 'boy scout coding'
 - Refactoring and adding features is easy and safe
 
-
 ---
 
 ### Better quality test cases?
 <br>
-Because you're reasoning about the expected behaviour, not the code you just wrote, TDD usually leads to:
+Because you're reasoning about the expected behaviour, not the code you just wrote:
 
 - More complete coverage of edge cases
 - More complete coverage of boundary conditions
 - Tests more likely to act as documentation
 - Less bugs
+
+---
+
+### TDD helps me!
+<br>
+TDD makes me feel safer and more confident in my day-to-day work, and I believe it makes me faster because:
+
+- Failing test cases become a checklist!
+- Eliminates usage of console/repl
+- Minimizes usage of interactive debuggers
+- Eliminates regressions
+- Minimizes re-work
 
 ---
 
@@ -47,7 +58,7 @@ Ruby library for parsing/slicing stereolithography files. Lots of complex math a
 
 ---
 
-## Who uses TDD?
+### Who uses TDD?
 <br>
 - Jose Valim
 - Sandi Metz
@@ -55,3 +66,13 @@ Ruby library for parsing/slicing stereolithography files. Lots of complex math a
 - Pivotal Labs
 - Erlang Solutions
 - Plataformatec
+
+---
+
+## Workflow
+<br>
+Red, Green, Refactor
+
+- Red: Write failing test cases that express the behaviour you want
+- Green: Write code to make the test cases pass
+- Refactor your code and tests
