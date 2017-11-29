@@ -41,7 +41,18 @@ Ruby library for parsing/slicing stereolithography files. Lots of complex math a
 
 - Written in less than a week!
 - 99.6% test coverage
-- 2:1 ratio of tests to lib code
 - Thousands of users via Rubygems
 - Multiple 3rd party forks adding features
 - Zero bug reports in the last 6 years
+
+---
+
+## Who uses TDD?
+<br>
+- Jose Valim
+- Sandi Metz
+
+- Thoughtbot
+- Pivotal Labs
+- Erlang Solutions
+- Plataformatec
