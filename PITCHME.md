@@ -132,9 +132,9 @@ Don't try 'real' unit testing. ie: don't mock your database.
 <br>
 ```
 	allow(Hockey::Player)
-    .to receive(:find)
-    .with(goaltender_id)
-    .and_return(player)
+      .to receive(:find)
+      .with(goaltender_id)
+      .and_return(player)
 ```
 <br>
 <br>
