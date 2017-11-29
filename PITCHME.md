@@ -51,7 +51,6 @@ Ruby library for parsing/slicing stereolithography files. Lots of complex math a
 <br>
 - Jose Valim
 - Sandi Metz
-
 - Thoughtbot
 - Pivotal Labs
 - Erlang Solutions
