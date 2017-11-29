@@ -74,7 +74,7 @@ Ruby library for parsing/slicing stereolithography files. Lots of complex math a
 <br>
 Can make encapsulation harder.
 <br>
-That's it. Really.
+That's it... Really!
 
 ---
 
@@ -110,3 +110,13 @@ This may sound crazy, but you already do it! Think about what you do in REPL whe
 ### Don't know what to test?
 <br>
 Start by writing out expected behaviours, then convert them into unit/integration tests where possible and work your way up/down.
+
+---
+
+### Make your test names tell a story
+<br>
+Describe Event: when clock is zero, status is pre-game
+.....class.........context.............test...........
+<br>
+<br>
+This helps frame your thinking around behaviour rather than code
