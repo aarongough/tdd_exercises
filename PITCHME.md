@@ -1,6 +1,6 @@
 # Test Driven Development
 <br>
-<span class="aside">(or: How I stopped worrying and learned to love testing!)</span>
+<span class="aside">How I stopped worrying and learned to love testing!</span>
 
 ---
 
@@ -29,5 +29,5 @@
 Because you're reasoning about the expected behaviour, not the code you just wrote, TDD usually leads to:
 
 - More complete coverage of edge cases
-- more complete coverage of boundary conditions
+- More complete coverage of boundary conditions
 - Less bugs
