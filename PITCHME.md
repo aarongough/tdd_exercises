@@ -30,4 +30,5 @@ Because you're reasoning about the expected behaviour, not the code you just wro
 
 - More complete coverage of edge cases
 - More complete coverage of boundary conditions
+- Tests more likely to act as documentation
 - Less bugs
