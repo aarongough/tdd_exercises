@@ -130,7 +130,10 @@ Frame your thinking around behaviour rather than code
 Don't try 'real' unit testing. ie: don't mock your database.
 <br>
 <br>
-`allow(Hockey::Player).to receive(:find).with(goaltender_id).and_return(player)`
+```allow(Hockey::Player)
+  .to receive(:find).with(goaltender_id)
+  .and_return(player)
+```
 <br>
 <br>
 Fail.
