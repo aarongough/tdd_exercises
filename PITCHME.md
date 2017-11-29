@@ -78,6 +78,15 @@ That's it. Really.
 
 ---
 
+### But TDD is slower!
+<br>
+Bullshit.
+<br>
+<br>
+If you don't pay for it now, you'll just pay for it later, probably with interest!
+
+---
+
 ### Workflow
 <br>
 Red  -  Green  -  Refactor
@@ -95,3 +104,9 @@ Red  -  Green  -  Refactor
 - Red, Green, Refactor
 
 This may sound crazy, but you already do it! Think about what you do in REPL when exploring...
+
+---
+
+### Don't know what to test?
+<br>
+Start by writing out expected behaviours, then convert them into unit/integration tests where possible and work your way up/down.
