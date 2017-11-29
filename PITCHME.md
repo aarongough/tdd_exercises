@@ -8,8 +8,8 @@
 <br>
 - Trains people to only test 'the happy path'
 - Does not enforce high levels of test coverage
-- Unexpected 'coverage holes' lead to inaccurate estimates
-- Does not validate that the tests actually fail without the feature code
+- Unexpected 'coverage holes' everywhere
+- Do the tests actually fail without the feature code??
 
 ---
 
