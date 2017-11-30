@@ -1,15 +1,23 @@
 # Test Driven Development
 <br>
-<span class="aside">How I stopped worrying and learned to love testing!</span>
+<span class="aside">How I learned to love testing!</span>
+
+---
+
+### What is it?
+<br>
+In its simplest form:
+<br>
+<br>
+Just writing tests first.
 
 ---
 
 ### Why not test last?
 <br>
-- Trains people to only test 'the happy path'
-- Does not enforce high levels of test coverage
-- Unexpected 'coverage holes' everywhere
-- Do the tests actually fail without the code??
+- Trains us to test 'the happy path'
+- Doesn't enforce high test coverage
+- Do the tests actually test the code?
 - It's harder...
 
 ---
@@ -17,20 +25,20 @@
 ### TDD advantages
 <br>
 - Enforces high test coverage
-- Better quality test cases
 - Encourages modular code
 - Encourages 'boy scout coding'
 - Refactoring is easy and safe
+- Test are living documentation
+- Better quality test cases
 
 ---
 
 ### Better quality test cases?
 <br>
-Because you're reasoning about the expected behaviour, not the code you just wrote:
+Because we're reasoning about the expected behaviour, not the code we just wrote:
 
 - Better coverage of edge cases
 - Better coverage of boundary conditions
-- Test cases are living documentation
 - Less bugs
 
 ---
@@ -39,11 +47,11 @@ Because you're reasoning about the expected behaviour, not the code you just wro
 <br>
 TDD makes coding easier and faster:
 
-- Failing test cases become a checklist!
-- Eliminates usage of console/repl
-- Minimizes usage of debuggers
-- Eliminates regressions
-- Minimizes re-work
+- Failing tests are a checklist!
+- Eliminate usage of console
+- Eliminate regressions
+- Minimize re-work
+- Helps momentum
 
 ---
 
@@ -51,7 +59,7 @@ TDD makes coding easier and faster:
 <br>
 Ruby library for parsing/slicing stereolithography files. Lots of complex math and potential edge cases:
 
-- Written in less than a week!
+- Written in less than a week
 - 99.6% test coverage
 - Thousands of users via Rubygems
 - Multiple forks that add features
@@ -81,12 +89,6 @@ That's it... Really!
 ### But TDD is slower!
 <br>
 Bullshit.
-<br>
-<br>
-If we don't pay for it now, we'll pay for it later.
-<br>
-<br>
-Our job is to deliver business value, not 'write code'.
 
 ---
 
@@ -94,9 +96,9 @@ Our job is to deliver business value, not 'write code'.
 <br>
 Red  -  Green  -  Refactor
 
-- Red: Failing test cases that express what you want
-- Green: Write code to make the test cases pass
-- Refactor: your code and tests
+- Red: Failing tests that define behaviour
+- Green: Write code to make the tests pass
+- Refactor: the code and tests
 
 ---
 
@@ -106,29 +108,29 @@ Red  -  Green  -  Refactor
 - Throw that code away
 - Red, Green, Refactor
 
-This may sound crazy, but you already do it! Think about what you do in REPL when exploring...
+This may sound crazy, but we already do it! Think about what we do in REPL when exploring...
 
 ---
 
 ### Don't know what to test?
 <br>
-Start by writing out expected behaviours, then convert them into unit/integration tests where possible and work your way up/down.
+Start by writing out expected behaviours, then convert them into unit/integration tests where possible and work our way up/down.
 
 ---
 
-### Make your test names tell a story
+### Make test names tell a story
 <br>
 Describe Event: when clock is zero, status is pre-game
 .....class.........context.........test.....
 <br>
 <br>
-Frame your thinking around behaviour rather than code
+Frames our thinking around behaviour rather than code
 
 ---
 
 ### Things not to do
 <br>
-Don't try 'real' unit testing. ie: don't mock your database.
+Don't mock the database.
 <br>
 <br>
 ```
@@ -145,7 +147,7 @@ Fail.
 
 ### Eureka moment
 <br>
-Think about the kind of code you write in console/repl when working on new code... Could that experimentation become test cases?
+Think about the kind of code we write in console/repl when working on new code... Could those experiments become test cases?
 <br>
 <br>
 Yes!
