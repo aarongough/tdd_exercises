@@ -1,4 +1,4 @@
-require_relative "lib/canvas"
+require_relative "solutions/canvas"
 
 OUTPUT_PATH = "/Users/agough/Desktop/example.svg"
 

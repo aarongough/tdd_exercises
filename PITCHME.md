@@ -10,6 +10,7 @@
 - Does not enforce high levels of test coverage
 - Unexpected 'coverage holes' everywhere
 - Do the tests actually fail without the code??
+- It's harder...
 
 ---
 
