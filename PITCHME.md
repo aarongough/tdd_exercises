@@ -163,5 +163,5 @@ Yes!
 <br>
 Make a little ruby script that:
 
-- Lets you make drawings programatically
+- Lets you make drawings
 - Output them as SVG
