@@ -152,3 +152,16 @@ Think about the kind of code we write in console/repl when working on new code..
 <br>
 <br>
 Yes!
+
+---
+
+### Lets try it!
+
+---
+
+### Canvas
+<br>
+Make a little ruby script that:
+
+- Lets you make drawings programatically
+- Output them as SVG
