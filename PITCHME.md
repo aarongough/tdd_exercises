@@ -82,6 +82,7 @@ Ruby library for parsing/slicing stereolithography files. Lots of complex math a
 <br>
 Can make encapsulation harder.
 <br>
+<br>
 That's it... Really!
 
 ---
